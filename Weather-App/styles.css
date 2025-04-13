@@ -123,3 +123,38 @@ body {
     font-size: 14px;
     opacity: 0.8;
 }
+
+/* Forecast Section */
+.weather-days {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.day-forecast {
+    flex: 1;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 10px 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+}
+
+.day-forecast .day {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.day-forecast .icon {
+    height: 36px;
+    margin-bottom: 5px;
+}
+
+.day-forecast .temp {
+    font-size: 14px;
+    font-weight: 500;
+}
