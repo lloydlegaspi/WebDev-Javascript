@@ -42,6 +42,7 @@ async function checkWeather(location) {
 
         // Update the UI with the contents of 'data'
         document.querySelector(".location").innerHTML = data.name;
+        document.querySelector(".country").innerHTML = data.sys.country;
         document.querySelector(".temperature").innerHTML = Math.round(data.main.temp) + "<span>°C</span>";
         document.querySelector(".description").innerHTML = data.weather[0].description;
         document.querySelector(".info-humidity span").innerHTML = data.main.humidity + "%";
