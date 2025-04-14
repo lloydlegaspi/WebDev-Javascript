@@ -67,11 +67,11 @@ async function checkWeather(location) {
         }
         else if (data.weather[0].main == "Drizzle") {
             weatherIcon.src = "images/rainy.png";
-            backgroundImage.background = 'url("images/background-rainys.jpg") no-repeat center center/cover';
+            backgroundImage.background = 'url("images/background-drizzle.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Mist" || data.weather[0].main == "Fog") {
             weatherIcon.src = "images/windy.png";
-            backgroundImage.background = 'url("images/background-windy.jpg") no-repeat center center/cover';
+            backgroundImage.background = 'url("images/background-mist.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Snow") {
             weatherIcon.src = "images/snowy.png";
