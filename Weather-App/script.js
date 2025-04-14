@@ -6,6 +6,7 @@ const forecastApiUrl = "https://api.openweathermap.org/data/2.5/forecast?units=m
 const searchBox = document.querySelector(".search-box input");
 const searchBtn = document.querySelector(".search-box button");
 const weatherIcon = document.querySelector(".weather img");
+const backgroundImage = document.body.style;
 
 
 // App will check weather of location when user clicks the search button or presses enter
@@ -54,24 +55,31 @@ async function checkWeather(location) {
         // Dynamically set the weather icon based on the weather condition
         if (data.weather[0].main == "Clouds") {
             weatherIcon.src = "images/cloudy.png";
+            backgroundImage.background = 'url("images/background-cloudy.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Clear") {
             weatherIcon.src = "images/sunny.png";
+            backgroundImage.background = 'url("images/background-sunny.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Rain") {
             weatherIcon.src = "images/rainy.png";
+            backgroundImage.background = 'url("images/background-rainy.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Drizzle") {
             weatherIcon.src = "images/rainy.png";
+            backgroundImage.background = 'url("images/background-cloudy.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Mist" || data.weather[0].main == "Fog") {
             weatherIcon.src = "images/foggy.png";
+            backgroundImage.background = 'url("images/background-cloudy.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Snow") {
             weatherIcon.src = "images/snowy.png";
+            backgroundImage.background = 'url("images/background-snowy.jpg") no-repeat center center/cover';
         }
         else if (data.weather[0].main == "Wind") {
             weatherIcon.src = "images/windy.png";
+            backgroundImage.background = 'url("images/background-windy.jpg") no-repeat center center/cover';
         }
 
         // Get the forecast data for the location
