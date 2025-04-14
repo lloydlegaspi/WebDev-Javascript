@@ -1,11 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CompSci Quiz Challenge</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-controls">
+        <button id="theme-toggle" title="Toggle Light/Dark Mode">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="light-icon"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="dark-icon"
+            style="display: none"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button id="music-toggle" title="Toggle Background Music">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="music-on"
+          >
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="music-off"
+            style="display: none"
+          >
+            <path d="M9 18V5l12-2v13"></path>
+            <line x1="2" y1="2" x2="22" y2="22"></line>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+        </button>
+      </div>
+      <h1>Computer Science: QuizIt!</h1>
+    </header>
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="slide-in">
+      <h2>Test Your Computer Science Knowledge!</h2>
+      <p>
+        Choose a subject and answer 15 random questions to test your skills.
+      </p>
+      <p>
+        You have <span class="code-theme">3</span> lives to complete the
+        challenge.
+      </p>
+
+      <div class="subject-selection">
+        <h3>Select a Subject:</h3>
+        <div class="subject-grid">
+          <div class="subject-card" data-subject="web-dev">
+            <div class="subject-icon">🌐</div>
+            <h4>Web Development</h4>
+            <p>HTML, CSS, JavaScript, and web technologies</p>
+          </div>
+          <div class="subject-card" data-subject="software-eng">
+            <div class="subject-icon">💻</div>
+            <h4>Software Engineering</h4>
+            <p>Design patterns, best practices, and methodologies</p>
+          </div>
+          <div class="subject-card" data-subject="ai">
+            <div class="subject-icon">🤖</div>
+            <h4>Artificial Intelligence</h4>
+            <p>Machine learning, neural networks, and AI concepts</p>
+          </div>
+          <div class="subject-card" data-subject="security">
+            <div class="subject-icon">🔒</div>
+            <h4>Information Security</h4>
+            <p>Cybersecurity, cryptography, and network security</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button class="leaderboard-btn" id="home-leaderboard-btn">
+          View Leaderboard
+        </button>
+      </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" style="display: none">
+      <div class="stats-bar">
+        <div class="subject-badge" id="current-subject">Subject</div>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="question-number">
+          Question: <span id="current-question">1</span>/<span
+            id="total-questions"
+            >15</span
+          >
+        </div>
+        <div class="lives">
+          Lives:
+          <span class="heart">❤️</span>
+          <span class="heart">❤️</span>
+          <span class="heart">❤️</span>
+        </div>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-bar"></div>
+      </div>
+
+      <div class="question-container">
+        <div class="question" id="question-text">Loading question...</div>
+        <div class="choices" id="choices-container"></div>
+      </div>
+
+      <div class="feedback" id="feedback">Great job!</div>
+
+      <button class="next-btn" id="next-btn" style="display: none">
+        Next Question
+      </button>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" style="display: none">
+      <h2>Quiz Completed!</h2>
+      <div class="subject-badge large" id="result-subject">Subject</div>
+      <div class="score-display"><span id="final-score">0</span> / 15</div>
+      <div class="result-message" id="result-message">Well done!</div>
+
+      <div id="save-score-section">
+        <h3>Save Your Score</h3>
+        <input
+          type="text"
+          class="username-input"
+          id="username"
+          placeholder="Enter your name"
+          maxlength="15"
+        />
+        <button class="leaderboard-btn" id="save-score-btn">Save Score</button>
+      </div>
+
+      <div>
+        <button class="restart-btn">Choose Another Subject</button>
+        <button class="leaderboard-btn" id="view-leaderboard-btn">
+          View Leaderboard
+        </button>
+      </div>
+    </div>
+
+    <!-- Leaderboard Screen -->
+    <div id="leaderboard-screen" style="display: none">
+      <h2>Leaderboard</h2>
+      <div class="filter-controls">
+        <label for="subject-filter">Filter by subject:</label>
+        <select id="subject-filter">
+          <option value="all">All Subjects</option>
+          <option value="web-dev">Web Development</option>
+          <option value="software-eng">Software Engineering</option>
+          <option value="ai">Artificial Intelligence</option>
+          <option value="security">Information Security</option>
+        </select>
+      </div>
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Score</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+      <button class="back-btn">Back</button>
+    </div>
+    <footer>
+      <p>© 2025 Computer Science Quiz. All rights reserved.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+      <source src="music/background.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
 </html>

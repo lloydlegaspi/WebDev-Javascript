@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "question": "Which of these is NOT one of the SOLID principles?",
+      "choices": ["Single Responsibility Principle", "Open-Closed Principle", "Liskov Substitution Principle", "Code Reusability Principle"],
+      "answer": 3
+    },
+    {
+      "question": "What is a design pattern in software engineering?",
+      "choices": ["A specific way to format code", "A general reusable solution to a common problem", "A method of organizing code files", "A testing strategy"],
+      "answer": 1
+    },
+    {
+      "question": "Which development methodology emphasizes short iterations and frequent customer feedback?",
+      "choices": ["Waterfall", "Agile", "Spiral", "V-Model"],
+      "answer": 1
+    },
+    {
+      "question": "What is refactoring in software engineering?",
+      "choices": ["Adding new features to existing code", "Restructuring code without changing its behavior", "Testing code for bugs", "Converting code to a different language"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is NOT a common version control system?",
+      "choices": ["Git", "SVN", "Mercurial", "JavaDoc"],
+      "answer": 3
+    },
+    {
+      "question": "What is unit testing?",
+      "choices": ["Testing a complete application", "Testing individual components in isolation", "Testing how components work together", "Testing the UI"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of continuous integration (CI)?",
+      "choices": ["To maintain a single code repository", "To integrate new features continuously", "To merge code changes frequently and run automated tests", "To continuously deploy new versions"],
+      "answer": 2
+    },
+    {
+      "question": "Which design pattern is used to decouple an abstraction from its implementation?",
+      "choices": ["Factory", "Singleton", "Bridge", "Observer"],
+      "answer": 2
+    },
+    {
+      "question": "What is technical debt?",
+      "choices": ["Money owed for technical equipment", "Extra development work from choosing an easy solution now", "Bugs in the code", "Cost of maintaining legacy systems"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is an example of a creational design pattern?",
+      "choices": ["Observer", "Factory Method", "Adapter", "Command"],
+      "answer": 1
+    },
+    {
+      "question": "What is dependency injection?",
+      "choices": ["A technique where an object receives its dependencies externally", "Adding libraries to a project", "Forcing code to depend on specific implementations", "Removing unnecessary dependencies"],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary benefit of code reviews?",
+      "choices": ["Improving code quality", "Increasing development speed", "Assigning blame for bugs", "Documenting the code"],
+      "answer": 0
+    },
+    {
+      "question": "Which of these is a key principle of test-driven development (TDD)?",
+      "choices": ["Write tests after writing code", "Automate all tests", "Write tests before writing code", "Focus on integration tests"],
+      "answer": 2
+    },
+    {
+      "question": "What does SaaS stand for?",
+      "choices": ["Software as a Service", "System as a Service", "Software and a Server", "Software as a System"],
+      "answer": 0
+    },
+    {
+      "question": "What is a microservice architecture?",
+      "choices": ["Using very small code files", "Breaking an application into small, independent services", "A type of frontend design", "Using minimal server resources"],
+      "answer": 1
+    },
+    {
+      "question": "What is a stub in testing?",
+      "choices": ["A piece of code that simulates the behavior of a component", "A test that always fails", "A bug that can't be fixed", "A placeholder for future code"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the Singleton design pattern?",
+      "choices": ["To create multiple instances of a class", "To ensure a class has only one instance", "To clone objects", "To implement inheritance"],
+      "answer": 1
+    },
+    {
+      "question": "What is the primary purpose of Docker containers?",
+      "choices": ["To store data securely", "To make applications platform-independent", "To increase network speed", "To replace database systems"],
+      "answer": 1
+    },
+    {
+      "question": "Which is NOT a benefit of pair programming?",
+      "choices": ["Knowledge sharing", "Code quality improvement", "Less total person-hours used", "Real-time code review"],
+      "answer": 2
+    },
+    {
+      "question": "What is the primary goal of DevOps?",
+      "choices": ["Replace QA testing", "Automate all programming tasks", "Integrate development and operations teams", "Eliminate the need for project managers"],
+      "answer": 2
+    },
+    {
+      "question": "What is a merge conflict in version control?",
+      "choices": ["When two branches can't be merged", "When changes from different branches overlap", "When a branch is deleted accidentally", "When a repository is corrupted"],
+      "answer": 1
+    },
+    {
+      "question": "What is meant by 'separation of concerns' in software design?",
+      "choices": ["Having different teams work on different features", "Dividing a program into distinct sections with minimal overlap", "Keeping business and technical teams separate", "Separating testing from development"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is an example of a behavioral design pattern?",
+      "choices": ["Adapter", "Builder", "Facade", "Observer"],
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of a load balancer?",
+      "choices": ["To balance the load on a server", "To distribute network traffic across multiple servers", "To increase server speed", "To monitor server performance"],
+      "answer": 1
+    },
+    {
+      "question": "What is the main advantage of using an ORM (Object-Relational Mapping)?",
+      "choices": ["Faster database queries", "Easier database management", "Abstracting database interactions to use objects", "Better security"],
+      "answer": 2
+    },
+    {
+      "question": "What is a RESTful API?",
+      "choices": ["A type of database", "An API that follows REST principles", "A programming language", "A testing framework"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of a firewall?",
+      "choices": ["To speed up network traffic", "To protect networks from unauthorized access", "To store data securely", "To monitor application performance"],
+      "answer": 1
+    },
+    {
+      "question": "What does CI/CD stand for?",
+      "choices": ["Continuous Integration/Continuous Deployment", "Code Integration/Code Development", "Continuous Improvement/Continuous Delivery", "Code Inspection/Code Debugging"],
+      "answer": 0
+    },
+    {
+      "question": "What is a monolithic architecture?",
+      "choices": ["An architecture where all components are tightly coupled", "An architecture with separate microservices", "An architecture that uses only one programming language", "An architecture with no database"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of a code linter?",
+      "choices": ["To format code", "To check code for errors and enforce coding standards", "To optimize code performance", "To document code"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of a backlog in Agile development?",
+      "choices": ["To store completed tasks", "To prioritize and manage tasks to be completed", "To archive old projects", "To track team performance"],
+      "answer": 1
+    },
+    {
+      "question": "What is a wireframe in software design?",
+      "choices": ["A detailed design document", "A visual representation of a user interface layout", "A type of database schema", "A testing framework"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of an API gateway?",
+      "choices": ["To manage API requests and responses", "To store API documentation", "To monitor API performance", "To secure APIs"],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary function of a database index?",
+      "choices": ["To speed up data retrieval operations", "To ensure data integrity", "To store backup copies of data", "To encrypt sensitive data"],
+      "answer": 0
+    },
+    {
+      "question": "What does 'agile' refer to in software development?",
+      "choices": ["A type of programming language", "A methodology focused on iterative development and customer collaboration", "A specific software tool", "A hardware specification"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of a README file in a project?",
+      "choices": ["To provide instructions on how to use the project", "To store project code", "To list contributors to the project", "To archive old versions of the project"],
+      "answer": 0
+    }
+  ]
+}

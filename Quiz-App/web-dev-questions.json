@@ -1,0 +1,249 @@
+{
+    "questions": [
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "choices": ["<link>", "<a>", "<href>", "<url>"],
+        "answer": 1
+      },
+      {
+        "question": "What does CSS stand for?",
+        "choices": ["Computer Style Sheets", "Creative Style System", "Cascading Style Sheets", "Colorful Style Sheets"],
+        "answer": 2
+      },
+      {
+        "question": "Which JavaScript method is used to select an element by its id?",
+        "choices": ["getElementById()", "querySelector()", "getElementByName()", "selectElement()"],
+        "answer": 0
+      },
+      {
+        "question": "Which CSS property is used to change the text color?",
+        "choices": ["text-color", "font-color", "color", "text-style"],
+        "answer": 2
+      },
+      {
+        "question": "What does the 'D' in DOM stand for?",
+        "choices": ["Document", "Display", "Data", "Dynamic"],
+        "answer": 0
+      },
+      {
+        "question": "Which of the following is a JavaScript framework?",
+        "choices": ["Django", "Flask", "Ruby on Rails", "React"],
+        "answer": 3
+      },
+      {
+        "question": "What is the correct HTML element for the largest heading?",
+        "choices": ["<h6>", "<heading>", "<head>", "<h1>"],
+        "answer": 3
+      },
+      {
+        "question": "Which CSS property is used to add space between elements?",
+        "choices": ["spacing", "margin", "padding", "border"],
+        "answer": 1
+      },
+      {
+        "question": "What is the correct JavaScript syntax to change the content of an HTML element with id 'demo'?",
+        "choices": ["document.getElement('demo').innerHTML = 'Hello';", "#demo.innerHTML = 'Hello';", "document.getElementById('demo').innerHTML = 'Hello';", "document.innerHTML.getElementById('demo') = 'Hello';"],
+        "answer": 2
+      },
+      {
+        "question": "Which method is used to add an element at the end of an array in JavaScript?",
+        "choices": ["push()", "append()", "addToEnd()", "insert()"],
+        "answer": 0
+      },
+      {
+        "question": "In CSS, how do you select an element with the class name 'header'?",
+        "choices": [".header", "#header", "header", "*header"],
+        "answer": 0
+      },
+      {
+        "question": "Which event is triggered when an HTML form is submitted?",
+        "choices": ["onsubmit", "onfinish", "onend", "oncomplete"],
+        "answer": 0
+      },
+      {
+        "question": "What does AJAX stand for?",
+        "choices": ["Asynchronous JavaScript And XML", "Advanced JavaScript And XHTML", "Automated JavaScript And XML", "Asynchronous jQuery And XML"],
+        "answer": 0
+      },
+      {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "choices": ["<css>", "<script>", "<style>", "<stylesheet>"],
+        "answer": 2
+      },
+      {
+        "question": "What is the correct way to write a JavaScript array?",
+        "choices": ["var colors = (1:'red', 2:'green', 3:'blue')", "var colors = ['red', 'green', 'blue']", "var colors = 'red', 'green', 'blue'", "var colors = {'red', 'green', 'blue'}"],
+        "answer": 1
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "choices": ["<link>", "<a>", "<href>", "<url>"],
+        "answer": 1
+      },
+      {
+        "question": "What does CSS stand for?",
+        "choices": ["Computer Style Sheets", "Creative Style System", "Cascading Style Sheets", "Colorful Style Sheets"],
+        "answer": 2
+      },
+      {
+        "question": "Which JavaScript method is used to select an element by its id?",
+        "choices": ["getElementById()", "querySelector()", "getElementByName()", "selectElement()"],
+        "answer": 0
+      },
+      {
+        "question": "Which CSS property is used to change the text color?",
+        "choices": ["text-color", "font-color", "color", "text-style"],
+        "answer": 2
+      },
+      {
+        "question": "What does the 'D' in DOM stand for?",
+        "choices": ["Document", "Display", "Data", "Dynamic"],
+        "answer": 0
+      },
+      {
+        "question": "Which of the following is a JavaScript framework?",
+        "choices": ["Django", "Flask", "Ruby on Rails", "React"],
+        "answer": 3
+      },
+      {
+        "question": "What is the correct HTML element for the largest heading?",
+        "choices": ["<h6>", "<heading>", "<head>", "<h1>"],
+        "answer": 3
+      },
+      {
+        "question": "Which CSS property is used to add space between elements?",
+        "choices": ["spacing", "margin", "padding", "border"],
+        "answer": 1
+      },
+      {
+        "question": "What is the correct JavaScript syntax to change the content of an HTML element with id 'demo'?",
+        "choices": ["document.getElement('demo').innerHTML = 'Hello';", "#demo.innerHTML = 'Hello';", "document.getElementById('demo').innerHTML = 'Hello';", "document.innerHTML.getElementById('demo') = 'Hello';"],
+        "answer": 2
+      },
+      {
+        "question": "Which method is used to add an element at the end of an array in JavaScript?",
+        "choices": ["push()", "append()", "addToEnd()", "insert()"],
+        "answer": 0
+      },
+      {
+        "question": "In CSS, how do you select an element with the class name 'header'?",
+        "choices": [".header", "#header", "header", "*header"],
+        "answer": 0
+      },
+      {
+        "question": "Which event is triggered when an HTML form is submitted?",
+        "choices": ["onsubmit", "onfinish", "onend", "oncomplete"],
+        "answer": 0
+      },
+      {
+        "question": "What does AJAX stand for?",
+        "choices": ["Asynchronous JavaScript And XML", "Advanced JavaScript And XHTML", "Automated JavaScript And XML", "Asynchronous jQuery And XML"],
+        "answer": 0
+      },
+      {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "choices": ["<css>", "<script>", "<style>", "<stylesheet>"],
+        "answer": 2
+      },
+      {
+        "question": "What is the correct way to write a JavaScript array?",
+        "choices": ["var colors = (1:'red', 2:'green', 3:'blue')", "var colors = ['red', 'green', 'blue']", "var colors = 'red', 'green', 'blue'", "var colors = {'red', 'green', 'blue'}"],
+        "answer": 1
+      },
+      {
+        "question": "Which property is used to change the background color in CSS?",
+        "choices": ["bgcolor", "background-color", "color-background", "bg-color"],
+        "answer": 1
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "choices": ["class", "styles", "style", "font"],
+        "answer": 2
+      },
+      {
+        "question": "What does API stand for?",
+        "choices": ["Application Programming Interface", "Application Protocol Interface", "Automated Programming Interface", "Application Process Integration"],
+        "answer": 0
+      },
+      {
+        "question": "Which JavaScript method is used to remove the last element from an array?",
+        "choices": ["pop()", "removeLast()", "delete()", "splice()"],
+        "answer": 0
+      },
+      {
+        "question": "In JavaScript, which operator is used for strict equality comparison?",
+        "choices": ["==", "===", "=", "!=="],
+        "answer": 1
+      },
+      {
+        "question": "What is the purpose of the <meta> tag in HTML?",
+        "choices": ["To display metadata as content", "To provide metadata about the HTML document", "To create meta-links", "To define metamorphic content"],
+        "answer": 1
+      },
+      {
+        "question": "Which CSS property controls the text size?",
+        "choices": ["text-size", "font-style", "font-size", "text-style"],
+        "answer": 2
+      },
+      {
+        "question": "What is a callback function in JavaScript?",
+        "choices": ["A function that calls back the server", "A function passed as an argument to another function", "A function that returns a value", "A function that calls itself"],
+        "answer": 1
+      },
+      {
+        "question": "Which HTML tag is used to embed external JavaScript code?",
+        "choices": ["<js>", "<script>", "<javascript>", "<code>"],
+        "answer": 1
+      },
+      {
+        "question": "What is the purpose of z-index in CSS?",
+        "choices": ["To count elements", "To set the horizontal position", "To control the stacking order of elements", "To set the zoom level"],
+        "answer": 2
+      },
+      {
+        "question": "Which method converts a JavaScript object to a JSON string?",
+        "choices": ["JSON.parse()", "JSON.stringify()", "JSON.toString()", "JSON.convert()"],
+        "answer": 1
+      },
+      {
+        "question": "What does the 'this' keyword refer to in JavaScript?",
+        "choices": ["The current HTML document", "The parent function", "The object the code is currently in", "The previous object"],
+        "answer": 2
+      },
+      {
+        "question": "Which CSS property makes text bold?",
+        "choices": ["font-weight", "text-style", "bold", "text-weight"],
+        "answer": 0
+      },
+      {
+        "question": "What is a Promise in JavaScript?",
+        "choices": ["A guarantee that a function will not fail", "A way to handle operations that might take time", "A pledge to complete code on time", "A type of function that always returns true"],
+        "answer": 1
+      },
+      {
+        "question": "Which HTML5 element is used to display a video?",
+        "choices": ["<media>", "<video>", "<play>", "<film>"],
+        "answer": 1
+      },
+      {
+        "question": "What is the default value of the 'display' property in CSS?",
+        "choices": ["block", "inline", "inline-block", "none"],
+        "answer": 1
+      },
+      {
+        "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+        "choices": ["alt", "src", "title", "longdesc"],
+        "answer": 0
+      },
+      {
+        "question": "What is the purpose of the 'defer' attribute in a <script> tag?",
+        "choices": ["To load the script immediately", "To load the script after the document has been parsed", "To load the script before the document is parsed", "To prevent the script from running"],
+        "answer": 1
+      },
+      {
+        "question": "Which CSS property is used to set the space between lines of text?",
+        "choices": ["line-height", "text-spacing", "letter-spacing", "word-spacing"],
+        "answer": 0
+      }
+    ]
+  }

@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "question": "What is machine learning?",
+      "choices": ["Teaching computers to think like humans", "Programming computers with explicit instructions", "Enabling computers to learn from data", "Creating human-like robots"],
+      "answer": 2
+    },
+    {
+      "question": "Which of these is an example of supervised learning?",
+      "choices": ["Clustering customer data", "Reinforcement learning in games", "Email spam classification", "Anomaly detection"],
+      "answer": 2
+    },
+    {
+      "question": "What is a neural network?",
+      "choices": ["A computer network optimized for AI", "A collection of algorithms mimicking the human brain", "A database of neurons", "A network of AI researchers"],
+      "answer": 1
+    },
+    {
+      "question": "What does NLP stand for in AI?",
+      "choices": ["Natural Language Processing", "Neural Learning Process", "Node Level Programming", "Normalized Learning Protocol"],
+      "answer": 0
+    },
+    {
+      "question": "Which algorithm is commonly used for recommendation systems?",
+      "choices": ["A* search", "Collaborative filtering", "Bubble sort", "Binary search"],
+      "answer": 1
+    },
+    {
+      "question": "What is overfitting in machine learning?",
+      "choices": ["When a model performs too well on training data but poorly on new data", "When a model is too large for the available memory", "When training takes too long", "When a model has too many parameters"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the activation function in neural networks?",
+      "choices": ["To initialize weights", "To introduce non-linearity", "To normalize data", "To speed up training"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is a common deep learning framework?",
+      "choices": ["MongoDB", "Laravel", "TensorFlow", "Angular"],
+      "answer": 2
+    },
+    {
+      "question": "What is reinforcement learning?",
+      "choices": ["Learning from labeled data", "Learning without any data", "Learning from rewards and punishments", "Learning by clustering similar data"],
+      "answer": 2
+    },
+    {
+      "question": "What is a convolutional neural network (CNN) typically used for?",
+      "choices": ["Natural language processing", "Image recognition", "Sound generation", "Database optimization"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is an example of unsupervised learning?",
+      "choices": ["Image classification", "Spam detection", "Customer segmentation", "Predicting house prices"],
+      "answer": 2
+    },
+    {
+      "question": "What is the Turing Test in AI?",
+      "choices": ["A test for computer processing power", "A test for determining if machines can think like humans", "A benchmark for neural network performance", "A security test for AI systems"],
+      "answer": 1
+    },
+    {
+      "question": "What does 'bias' refer to in machine learning?",
+      "choices": ["A parameter in neural networks", "The tendency of a model to consistently learn certain patterns", "Preferential treatment of data", "Random errors in the model"],
+      "answer": 1
+    },
+    {
+      "question": "What is a decision tree in machine learning?",
+      "choices": ["A hierarchical model making decisions based on conditions", "A tree-like visualization of neural networks", "A scheduling algorithm", "A type of recursive function"],
+      "answer": 0
+    },
+    {
+      "question": "What is gradient descent used for in machine learning?",
+      "choices": ["Data preprocessing", "Feature selection", "Optimizing model parameters", "Visualizing data"],
+      "answer": 2
+    },
+    {
+      "question": "Which of these is NOT a common type of neural network?",
+      "choices": ["Recurrent Neural Network (RNN)", "Convolutional Neural Network (CNN)", "Blockchain Neural Network (BNN)", "Generative Adversarial Network (GAN)"],
+      "answer": 2
+    },
+    {
+      "question": "What is transfer learning?",
+      "choices": ["Moving AI models between computers", "Using knowledge from one task to help with another task", "Transferring data between neural network layers", "Converting between machine learning frameworks"],
+      "answer": 1
+    },
+    {
+      "question": "What are 'features' in machine learning?",
+      "choices": ["Special software capabilities", "The independent variables used for prediction", "Premium services in AI platforms", "Hardware specifications"],
+      "answer": 1
+    },
+    {
+      "question": "What is K-means used for?",
+      "choices": ["Classification", "Clustering", "Regression", "Dimensionality reduction"],
+      "answer": 1
+    },
+    {
+      "question": "What does a confusion matrix show?",
+      "choices": ["How confused a model is", "The performance of a classification model", "The complexity of an algorithm", "The uncertainty in predictions"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of cross-validation in machine learning?",
+      "choices": ["To clean data", "To evaluate a model's performance on unseen data", "To visualize results", "To speed up training"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is a type of generative AI model?",
+      "choices": ["Random Forest", "Support Vector Machine", "Generative Adversarial Network", "Decision Tree"],
+      "answer": 2
+    },
+    {
+      "question": "What does the term 'hyperparameter' refer to in machine learning?",
+      "choices": ["A parameter set automatically during training", "A parameter that controls the learning process", "A parameter with very high values", "A parameter inside the neural network"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of data normalization?",
+      "choices": ["To increase data size", "To reduce data complexity", "To scale features to a similar range", "To remove duplicates"],
+      "answer": 2
+    },
+    {
+      "question": "What is the main goal of unsupervised learning?",
+      "choices": ["To predict outcomes", "To find hidden patterns in data", "To classify labeled data", "To optimize algorithms"],
+      "answer": 1
+    },
+    {
+      "question": "What is a chatbot?",
+      "choices": ["A robot that chats with humans", "An AI program that simulates conversation", "A social media tool", "A type of malware"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of feature engineering?",
+      "choices": ["To create new features from existing data", "To visualize data", "To clean data", "To optimize algorithms"],
+      "answer": 0
+    },
+    {
+      "question": "What is the main advantage of using ensemble methods?",
+      "choices": ["Faster training", "Higher accuracy by combining multiple models", "Simpler models", "Less data required"],
+      "answer": 1
+    },
+    {
+      "question": "What is a generative model?",
+      "choices": ["A model that generates new data similar to the training data", "A model that classifies data", "A model that predicts future values", "A model that cleans data"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of a loss function in machine learning?",
+      "choices": ["To measure how well a model performs", "To optimize the model's parameters", "To visualize results", "To clean data"],
+      "answer": 0
+    },
+    {
+      "question": "What is the main purpose of dimensionality reduction?",
+      "choices": ["To increase data size", "To reduce the number of features while retaining important information", "To clean data", "To visualize results"],
+      "answer": 1
+    },
+    {
+      "question": "What is a support vector machine (SVM)?",
+      "choices": ["A type of neural network", "A supervised learning algorithm for classification and regression", "A clustering algorithm", "A reinforcement learning algorithm"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of dropout in neural networks?",
+      "choices": ["To increase training speed", "To prevent overfitting by randomly dropping units during training", "To clean data", "To visualize results"],
+      "answer": 1
+    },
+    {
+      "question": "What is a hyperparameter tuning?",
+      "choices": ["Adjusting parameters during training", "Finding the best set of hyperparameters for a model", "Cleaning data before training", "Visualizing results"],
+      "answer": 1
+    },
+    {
+      "question": "What is an autoencoder?",
+      "choices": ["A type of neural network used for unsupervised learning", "A tool for cleaning data", "A visualization tool", "A type of reinforcement learning algorithm"],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of backpropagation in neural networks?",
+      "choices": ["To initialize weights", "To update weights based on the error", "To clean data", "To visualize results"],
+        "answer": 1
+        },
+        {
+        "question": "What is the main advantage of using transfer learning?",
+        "choices": ["Faster training and better performance with less data", "More complex models", "Less data required", "Easier to implement"],
+        "answer": 0
+        },
+        {
+        "question": "What is the purpose of a validation set in machine learning?",
+        "choices": ["To train the model", "To evaluate the model's performance during training", "To clean data", "To visualize results"],
+        "answer": 1
+        },
+        {
+        "question": "What is a recurrent neural network (RNN) typically used for?",
+        "choices": ["Image recognition", "Natural language processing and time series prediction", "Data cleaning", "Data visualization"],
+        "answer": 1
+        },
+        {
+        "question": "What is the purpose of a kernel in SVM?",
+        "choices": ["To clean data", "To transform data into a higher-dimensional space for better separation", "To visualize results", "To optimize algorithms"],
+        "answer": 1
+        },
+        {
+        "question": "What is the main goal of clustering algorithms?",
+        "choices": ["To classify labeled data", "To group similar data points together", "To predict outcomes", "To optimize algorithms"],
+        "answer": 1
+        },
+        {
+        "question": "What is the purpose of regularization in machine learning?",
+        "choices": ["To increase model complexity", "To prevent overfitting by adding a penalty to the loss function", "To clean data", "To visualize results"],
+        "answer": 1
+        },
+        {
+        "question": "What is a generative adversarial network (GAN)?",
+        "choices": ["A type of neural network for classification", "A framework for unsupervised learning using two competing networks", "A reinforcement learning algorithm", "A clustering algorithm"],
+        "answer": 1
+        },
+        {
+        "question": "What is the purpose of a test set in machine learning?",
+        "choices": ["To train the model", "To evaluate the model's performance on unseen data", "To clean data", "To visualize results"],
+        "answer": 1
+        }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "question": "What is a firewall?",
+      "choices": ["A physical barrier to prevent server overheating", "A network security device that monitors traffic", "An encryption algorithm", "A type of antivirus software"],
+      "answer": 1
+    },
+    {
+      "question": "What is phishing?",
+      "choices": ["A method to optimize database queries", "An attempt to obtain sensitive information by disguising as a trustworthy entity", "A technique to improve network speed", "A type of encryption"],
+      "answer": 1
+    },
+    {
+      "question": "What is SQL injection?",
+      "choices": ["Adding SQL to a database", "A technique to speed up SQL queries", "A code injection attack targeting databases", "A database backup method"],
+      "answer": 2
+    },
+    {
+      "question": "What does DDoS stand for?",
+      "choices": ["Dynamic Denial of Service", "Distributed Denial of Service", "Direct Denial of Service", "Database Denial of Service"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is the best password practice?",
+      "choices": ["Using your name with numbers", "Using the same password for all accounts", "Using a passphrase with special characters", "Writing passwords down"],
+      "answer": 2
+    },
+    {
+      "question": "What is two-factor authentication?",
+      "choices": ["Using two passwords", "Authentication requiring two different types of verification", "Having two administrators verify access", "Using two different encryption methods"],
+      "answer": 1
+    },
+    {
+      "question": "What is a VPN?",
+      "choices": ["Virtual Private Network", "Visual Processing Node", "Verified Public Network", "Variable Path Network"],
+      "answer": 0
+    },
+    {
+      "question": "What is encryption?",
+      "choices": ["Compressing data", "Converting data into a code to prevent unauthorized access", "Backing up data", "Deleting sensitive data"],
+      "answer": 1
+    },
+    {
+      "question": "What is a zero-day vulnerability?",
+      "choices": ["A software bug on the first day of release", "A vulnerability known to the attacker but not to the vendor", "A vulnerability with zero impact", "A vulnerability that takes zero days to fix"],
+      "answer": 1
+    },
+    {
+      "question": "What is a man-in-the-middle attack?",
+      "choices": ["An attack targeting middle management", "An attacker secretly relaying/altering communications between parties", "A physical attack on network infrastructure", "An attack on middleware"],
+      "answer": 1
+    },
+    {
+      "question": "What is social engineering in cybersecurity?",
+      "choices": ["Building social networks securely", "Programming social media algorithms", "Manipulating people into divulging confidential information", "Engineering social platforms"],
+      "answer": 2
+    },
+    {
+      "question": "What is a brute force attack?",
+      "choices": ["A physical attack on servers", "Trying many passwords until finding the correct one", "Forcing users to update their security", "An attack using extreme computing power"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of HTTPS?",
+      "choices": ["High Performance Text Transfer Protocol", "To make websites load faster", "To secure data transferred between browser and website", "To organize website structure"],
+      "answer": 2
+    },
+    {
+      "question": "What is a security patch?",
+      "choices": ["A physical security badge", "A piece of code that fixes security vulnerabilities", "A monitoring tool", "A security certification"],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is NOT a common type of malware?",
+      "choices": ["Virus", "Worm", "Trojan", "Dolphin"],
+      "answer": 3
+    },
+    {
+      "question": "What does CIA stand for in information security?",
+      "choices": ["Central Intelligence Agency", "Confidentiality, Integrity, and Availability", "Computer Intelligence Architecture", "Critical Infrastructure Access"],
+      "answer": 1
+    },
+    {
+      "question": "What is a security audit?",
+      "choices": ["A financial review of security expenses", "A systematic evaluation of an organization's security", "A check for physical security personnel", "A test of security alarms"],
+      "answer": 1
+    },
+    {
+      "question": "What is the principle of least privilege?",
+      "choices": ["Giving users the minimum levels of access needed for their job", "Using the cheapest security solutions", "Ensuring privacy in privileged communications", "Restricting access to privileged users only"],
+      "answer": 0
+    },
+    {
+      "question": "What is a honeypot in cybersecurity?",
+      "choices": ["A sweet reward for finding vulnerabilities", "A system designed to attract attackers to study their methods", "A type of sticky malware", "A security system that traps malicious code"],
+      "answer": 1
+    },
+    {
+      "question": "What is ransomware?",
+      "choices": ["Software that demands payment to remove ads", "Malware that locks data until a ransom is paid", "Antivirus that requires premium subscriptions", "Hardware that restricts access until authenticated"],
+      "answer": 1
+    },
+    {
+      "question": "What is a security token?",
+      "choices": ["A physical device used for authentication", "A cryptocurrency for security services", "A security guard's badge", "A reward for reporting vulnerabilities"],
+      "answer": 0
+    },
+    {
+      "question": "What is cross-site scripting (XSS)?",
+      "choices": ["Writing code across multiple sites", "A vulnerability allowing attackers to inject client-side scripts", "Sharing scripts between websites", "A technique for improving website performance"],
+      "answer": 1
+    },
+    {
+      "question": "What is biometric authentication?",
+      "choices": ["Authentication using mathematical formulas", "Authentication based on biological measurements", "Two-factor authentication", "Authentication using medical records"],
+      "answer": 1
+    },
+    {
+        "question": "What is a digital signature?",
+        "choices": ["A handwritten signature scanned into a computer", "An electronic signature that verifies the authenticity of a digital message or document", "A type of encryption", "A digital version of a physical signature"],
+        "answer": 1
+    },
+    {
+        "question": "What is a security breach?",
+        "choices": ["A minor security issue", "An incident where unauthorized access to data occurs", "A physical break-in at a facility", "A software bug"],
+        "answer": 1
+    },
+    {
+        "question": "What is a security policy?",
+        "choices": ["A set of rules and practices to protect an organization's information", "A document outlining employee benefits", "A guideline for software development", "A marketing strategy"],
+        "answer": 0
+    },
+    {
+        "question": "What is a vulnerability assessment?",
+        "choices": ["An evaluation of an organization's security posture", "A test of software performance", "An analysis of user behavior", "A financial audit"],
+        "answer": 0
+    },
+    {
+        "question": "What is a patch management process?",
+        "choices": ["The process of applying updates to software to fix vulnerabilities", "The process of managing physical patches on servers", "The process of documenting software changes", "The process of creating new software patches"],
+        "answer": 0
+    },
+    {
+        "question": "What is a security incident response plan?",
+        "choices": ["A plan for responding to security incidents", "A plan for improving network speed", "A plan for software development", "A plan for employee training"],
+        "answer": 0
+    },
+    {
+        "question": "What is a threat model?",
+        "choices": ["A model predicting future threats", "An analysis of potential threats to an organization", "A diagram of network architecture", "A model for testing software performance"],
+        "answer": 1
+    },
+    {
+        "question": "What is a risk assessment?",
+        "choices": ["An evaluation of potential risks and their impact on an organization", "An analysis of financial risks", "A test of software reliability", "An evaluation of employee performance"],
+        "answer": 0
+    },
+    {
+        "question": "What is a security awareness training program?",
+        "choices": ["Training employees on security best practices and policies", "Training employees on software development", "Training employees on customer service skills", "Training employees on financial management"],
+        "answer": 0
+    }
+  ]
+}
