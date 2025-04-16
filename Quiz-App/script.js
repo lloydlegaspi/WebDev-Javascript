@@ -345,6 +345,7 @@ $(document).ready(function () {
 
   // Music toggle functionality
   const backgroundMusic = document.getElementById("background-music");
+  backgroundMusic.volume = 0.3;
   $("#music-toggle").on("click", function () {
     $(".music-on, .music-off").toggle();
 
@@ -379,4 +380,28 @@ $(document).ready(function () {
 
   // Initialize on page load
   updateLeaderboard();
+
+  document.getElementById('exit-quiz').addEventListener('click', confirmExit);
+
+  function confirmExit() {
+    const confirmation = confirm('Are you sure you want to exit? Your progress will be lost.');
+    if (confirmation) {
+        // Reset quiz state
+        score = 0;
+        currentQuestionIndex = 0;
+        document.getElementById('score').textContent = '0';
+        
+        // Reset lives
+        const hearts = document.querySelectorAll('.heart');
+        hearts.forEach(heart => heart.innerHTML = '❤️');
+        
+        // Hide quiz screen and show start screen
+        document.getElementById('quiz-screen').style.display = 'none';
+        document.getElementById('start-screen').style.display = 'block';
+        
+        // Reset any other necessary quiz state variables
+        document.getElementById('feedback').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+    }
+  }
 });

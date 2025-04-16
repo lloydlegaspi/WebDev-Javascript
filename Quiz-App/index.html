@@ -139,18 +139,16 @@
         <div class="subject-badge" id="current-subject">Subject</div>
         <div class="score">Score: <span id="score">0</span></div>
         <div class="question-number">
-          Question: <span id="current-question">1</span>/<span
-            id="total-questions"
-            >15</span
-          >
+          Question: <span id="current-question">1</span>/<span id="total-questions">15</span>
         </div>
         <div class="lives">
-          Lives:
           <span class="heart">❤️</span>
           <span class="heart">❤️</span>
           <span class="heart">❤️</span>
         </div>
+        <button id="exit-quiz" class="exit-btn">Exit Quiz</button>
       </div>
+      
 
       <div class="progress-container">
         <div class="progress-bar"></div>
@@ -226,8 +224,9 @@
       <p>© 2025 Computer Science Quiz. All rights reserved.</p>
     </footer>
 
-    <audio id="background-music" loop>
-      <source src="music/background.mp3" type="audio/mpeg" />
+    <audio id="background-music" preload="auto" loop>
+      <source src="music/background.ogg" type="audio/mpeg" />
+      <source src="music/background.mp3" type="audio/ogg" />
       Your browser does not support the audio element.
     </audio>
 
